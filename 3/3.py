@@ -43,6 +43,6 @@ def get_class_average(key = 'homework', names = None):
     else:
         avg = math.fsum(stu.values()) / len(stu)
 
-    return math.
+    return avg
 
 print(get_class_average('tests'))
