@@ -37,8 +37,8 @@ class E(D, C):
 
 
 class F(Z, B):
-    def do_job(self, *args):
-        super().do_job(*args)
+    def do_job(self, s, n):
+        super().do_job(n, s)
         print('I am playing ...')
 
 
