@@ -62,5 +62,3 @@ obja.do_job()
 print()
 objz = Z()
 objz.do_job(3)
-
-

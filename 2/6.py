@@ -22,3 +22,8 @@ def generate_password(n = floor(random.uniform(1, 2) * 10)):
     return ''.join(password)
 
 print('password: {}'.format(generate_password()))
+
+for k, v in list(globals().items()):
+    print(k, '\t\t\t',v)
+
+upper_letter(2)

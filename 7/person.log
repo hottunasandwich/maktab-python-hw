@@ -1,0 +1,6 @@
+2020-10-05 14:55:30,026 | person     | WARNING          | 26.223182678222656 | Person created! ali alavi
+2020-10-05 14:55:30,026 | person     | CRITICAL         | 26.49235725402832 | invalid age!
+2020-10-05 14:55:30,026 | person     | WARNING          | 26.561737060546875 | Person created! gholi gholami
+2020-10-05 14:55:31,980 | person     | WARNING          | 980.4115295410156 | Person created! ali alavi
+2020-10-05 14:55:31,980 | person     | CRITICAL         | 980.4675579071045 | invalid age!
+2020-10-05 14:55:31,980 | person     | WARNING          | 980.5083274841309 | Person created! gholi gholami
