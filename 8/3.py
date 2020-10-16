@@ -1,7 +1,4 @@
-# Python program creating a 
-# context manager 
-
-class ContextManager():
+class Indenter():
     def __init__(self):
         self.indent = -1
 
@@ -15,18 +12,16 @@ class ContextManager():
     def print(self, s):
         print('\t' * self.indent + s)
 
-a = ContextManager()
+a = Indenter()
 a.print('as')
 
-with ContextManager() as manager:
-    manager.print('hi')
-    with manager:
-        manager.print('How are you!')
-        with manager:
-            manager.print('Oh my go')
+with Indenter() as indent:
+    indent.print('hi')
+    with indent:
+        indent.print('How are you!')
+        with indent:
+            indent.print('Oh my go')
 
-            manager.print('this is pertty cool')
+            indent.print('this is pertty cool')
 
-    manager.print('bye')
-
-
+    indent.print('bye')

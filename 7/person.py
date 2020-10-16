@@ -1,17 +1,17 @@
 import logging
 
 # creating an instance of logger
-person = logging.Logger(__name__, level=logging.INFO)
+person = logging.getLogger(__name__)
 
 # defining the format of log
-fileformat = logging.Formatter('%(asctime)s | %(name)-10s | %(levelname)-16s | %(msecs)s | %(message)s')
+#fileformat = logging.Formatter('%(asctime)s | %(name)-10s | %(levelname)-16s | %(msecs)s | %(message)s')
 
 # creating a file handler and setting the format
-fh = logging.FileHandler('person.log')
-fh.setFormatter(fileformat)
+#fh = logging.FileHandler('person.log')
+#fh.setFormatter(fileformat)
 
 # adding the handler to the logger
-person.addHandler(fh)
+#person.addHandler(fh)
 
 
 class Person():
@@ -30,4 +30,3 @@ class Person():
         else:
             person.critical("invalid age!")
             self._age = 0
-

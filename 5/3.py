@@ -98,5 +98,15 @@ class Book(Asar):
         self.isbn = isbn
 
 
-po = Poem('rod', ["Poet('Rodrik')"])
-bo = Book('this', [Author('roni', 123), Author('Marita', 432)])
+# po = Poem('rod', ["Poet('Rodrik')"])
+# bo = Book('this', [Author('roni', 123), Author('Marita', 432)])
+
+# au1 = Author('Arman', 1)
+# au2 = Author('Bahrami', 2)
+
+po1 = Poet('Rodrik')
+
+# res = Researcher('Abolghasemi', 'Programming')
+
+# book1 = Book('Python', [au1, au2])
+# poem1 = Poem('google', po1)

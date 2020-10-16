@@ -62,3 +62,16 @@ obja.do_job()
 print()
 objz = Z()
 objz.do_job(3)
+
+# b = B()
+# b.do_job('Python')
+
+# print()
+
+# c = C()
+# c.do_job(2)
+
+# print()
+
+# d = D()
+# d.do_job('Python')

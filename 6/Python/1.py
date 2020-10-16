@@ -103,4 +103,4 @@ class Diamond(Square, Rhombus):
                 i = -i
             print(' ' * i + '*' * (n - i * 2))
 
-Square.concat_area([3,5,10,9,10])
+Square.draw_concat([3,5,10,9,10])

@@ -1,0 +1,52 @@
+body {
+    height: 100vh;
+    background-color: rgb(86, 86, 202);
+}
+
+*{
+    overflow: hidden;
+}
+
+.row-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.title {
+    margin: 20px;
+    text-align: center;
+}
+
+.column-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.grow-1 {
+    flex-grow: 1;
+}
+
+#login {
+    flex-grow: 1;
+    background-color: white;
+    border-radius: 10px;
+}
+
+input[type=password], input[type=submit], input[type=text] {
+    margin: 10px;
+    text-align: center;
+    border: none;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.color-grey {
+    background-color: rgb(221, 221, 221);
+}
+
+.color-blue {
+    background-color: rgb(86, 86, 202);
+}

@@ -1,0 +1,83 @@
+.container {
+    padding: 10px 50px;
+}
+
+.project-name {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.button {
+    margin: 5px;
+    padding: 10px 12px;
+    background-color: white;
+    color: #24a0ed;
+    border: none;
+    font-weight: bold;
+    font-size: medium;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.banner {
+    padding: 40px 10px;
+    margin: 30px 0;
+    background-color: rgb(223, 223, 223);
+    border-radius: 5px;
+    text-align: center;
+}
+
+#navigation {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px 0;
+}
+
+hr {
+    color: rgb(233, 233, 233);
+}
+
+#home {
+    color: white;
+    background-color: #24a0ed;
+}
+
+
+#home:hover {
+    color: #24a0ed;
+    background-color: white;
+    transition: 300ms;
+}
+
+.button:hover {
+    color: white;
+    background-color: #24a0ed;
+    transition: 300ms;
+}
+
+#success-button {
+    color: white;
+    background-color: #30b437;
+}
+
+#success-button:hover {
+    color: #30b437;
+    background-color: rgb(223, 223, 223);
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.content > div {
+    width: calc(50% - 20px);
+    padding: 10px;
+}
+
+p {
+    margin: 5px 0;
+}
