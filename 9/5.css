@@ -1,0 +1,68 @@
+body > div {
+    margin-bottom: 8px;
+}
+
+
+#nav {
+    height: 70px;
+    background-color: rgb(51, 51, 51);
+}
+
+#nav > button {
+    font-size: large;
+    float: left;
+    height: 70px;
+    border: none;
+    background-color: inherit;
+    color: white;
+    cursor: pointer;
+    padding: 0 20px;
+}
+
+#nav > button:hover {
+    color: rgb(32, 32, 32);
+    background-color: white;
+    transition: 500ms;
+}
+
+.left {
+    color: white;
+    width: 25%;
+    height: 15%;
+}
+
+.left > div {
+    background-color: blue;
+}
+
+.middle {
+    width: calc(50% - 20px);
+    padding: 0 10px;
+}
+
+.right {
+    color: white;
+    width: 25%;
+}
+.right > div {
+    background-color: purple;
+}
+
+.left > div, .right > div {
+    margin: 10px 0;
+}
+.left, .middle, .right {
+    font-size: large;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+#main {
+    padding: 10px 0;
+}
+
+#main > div {
+    height: 100%;
+}
